@@ -13,13 +13,13 @@
     padding-top: 20px;
   }
 
-  &__list {
+  &_list {
     margin: 0;
     padding: 0;
     counter-reset: count;
   }
 
-  &__item {
+  &_item {
     margin-bottom: 40px;
     border-radius: 5px;
     box-shadow: -1px -1px 10px 1px rgba(214, 214, 214, 1);
@@ -39,7 +39,7 @@
         display: block;
       }
 
-      .approach__text {
+      .approach_text {
         padding: 70px 90px 55px 90px;
 
         @media (max-width: 985px) {
@@ -47,14 +47,14 @@
         }
       }
 
-      .approach__step {
+      .approach_step {
         right: auto;
         left: -52px;
       }
     }
   }
 
-  &__image {
+  &_image {
     position: relative;
     max-width: 340px;
     max-height: 236px;
@@ -72,13 +72,13 @@
     }
   }
 
-  &__picture {
+  &_picture {
     display: block;
     width: 100%;
     height: 100%;
   }
 
-  &__text {
+  &_text {
     display: inline-block;
     vertical-align: top;
     width: 64%;
@@ -95,7 +95,7 @@
     }
   }
 
-  &__step {
+  &_step {
     @include centerer-y();
 
     right: -52px;
@@ -124,13 +124,13 @@
     }
   }
 
-  &__title {
+  &_title {
     margin-bottom: 6px;
     font-size: 1.125rem;
     font-family: $ff-main-bold;
   }
 
-  &__description {
+  &_description {
     margin: 0;
     line-height: 1.5;
   }

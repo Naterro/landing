@@ -31,7 +31,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "georgia-bold";
+  font-family: "georgia-neue-bold";
   src: url("../../fonts/georgia-bold.woff") format("woff"),
   url("../../fonts/georgia-bold.woff2") format("woff2");
   font-weight: bold;
@@ -43,4 +43,10 @@
   url("../../fonts/fontawesome-webfont.woff2") format("woff2");
   font-style:normal;
   font-weight:900;
+}
+@font-face {
+  font-family: "Font Awesome";
+  src: url("../../fonts/fa-solid-900.ttf")format("ttf"),
+  url("../../fonts/fa-solid-900.woff") format("woff"),
+  url("../../fonts/fa-solid-900.woff2") format("woff2");
 }

@@ -1,0 +1,18 @@
+- var linkItems = ['facebook', 'twitter', 'google-plus', 'linkedin']
+- var linkUrls = ['facebook.com', 'twitter.com', 'google.com', 'linkedin.com']
+footer.footer
+  .footer_top
+    .container
+      .footer_title Get in touch
+      .footer_links
+        each item, key in linkItems
+          a.footer_social(href="http://" + linkUrls[key] target="_blank")
+            i(class="fas fa-" + item )
+
+      .footer_text Subscribe to our newsletter to stay update with what is new
+      form(action="#" method="post")
+        .footer_field: input.footer_input(type="email" placeholder="Email Address")
+        button(type="submit").button Subscribe
+
+  .footer_bottom
+    .footer_copy Cssauthor.com &copy; 2014 All Rights Reserved

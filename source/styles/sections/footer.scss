@@ -1,24 +1,24 @@
 .footer {
-  &__top {
+  &_top {
     padding: 88px 0 83px;
     text-align: center;
     background: #2a2a2a;
   }
 
-  &__bottom {
+  &_bottom {
     padding: 26px;
     text-align: center;
     background: #515151;
   }
 
-  &__title {
+  &_title {
     margin-bottom: 31px;
     font-size: 1.8125rem;
     color: #fff;
     font-family: $ff-main-bold;
   }
 
-  &__social {
+  &_social {
     margin-left: 20px;
     padding: 15px;
     border: 1px solid #515151;
@@ -31,27 +31,27 @@
       margin-left: 0;
     }
   }
-  &__links {
+  &_links {
     margin-bottom: 53px;
     color: #fff;
 
-    .fa {
+    .fas {
       color: #fff;
     }
   }
 
-  &__text {
+  &_text {
     margin-bottom: 30px;
     font-size: 0.875rem;
     color: #cecece;
   }
 
-  &__field {
+  &_field {
     width: 67%;
     margin: 0 auto 27px;
   }
 
-  &__input {
+  &_input {
     width: 100%;
     padding: 20px;
     font-size: 0.875rem;
@@ -74,7 +74,7 @@
     }
   }
 
-  &__copy {
+  &_copy {
     font-size: 0.875rem;
     color: #cecece;
   }

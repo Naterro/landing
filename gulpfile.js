@@ -48,7 +48,7 @@ gulp.task('autoprefixer',function (){
 })
 
 gulp.task('sprite', function () {
-    var spriteData = gulp.src('source/images/*.png').pipe(spritesmith({
+    var spriteData = gulp.src('source/images/icons/*.png').pipe(spritesmith({
         imgName: 'sprite.png',
         cssName: 'sprite.css'
     }));
